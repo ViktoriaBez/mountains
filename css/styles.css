@@ -1,0 +1,78 @@
+:root {
+    --blue: #5b86a1;
+    --Primary-text: #1b1d1b;
+    --Secondary-text: #202321;
+    --Light: #f7fbfb;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #202321;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #f7fbfb;
+}
+
+.container {
+    max-width: 344px;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+button {
+    color: currentColor;
+    font-family: inherit;
+}
+
+h2 {
+    font-size: 32px;
+    color: #202321;
+}
+
+.history {
+    padding: 52px 16px 26px 16px;
+}
+
+.benefits-title {
+    text-align: center;
+    font-weight: 500;
+    /* line-height: 1.11;*/
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    margin-bottom: 28px;
+ }
+
+.benefits-title-text {
+    font-size: 16px;
+    color: var(--secondary-text);
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.benefits {
+    padding: 26px 14px;
+}
+
+.advantages { 
+    display: flex;
+    flex-direction: column;
+    background-image: url(/images/advantages1-1x.jpg);
+    background-size: cover;
+    background-position: center;
+   background-repeat: no-repeat;
+   width: 100%; 
+   margin: 0 auto;
+   text-align: center;
+   height: 554px;
+}
